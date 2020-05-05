@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: #100F20;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,116 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* .hero {
+  position: relative;
+} */
+
+/* .slide-container {
+  position: absolute;
+  background: black;
+  z-index:1;
+} */
+
+
+
+
+.slider{
+  position: relative;
+  height: 90vh;
+}
+
+.slide{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  opacity: 0;
+  transition: .3s ease;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: .6s;
+}
+
+.slide h1 {
+  font-size: 60px;
+  color: white;
+  margin-left: 200px;
+}
+.slide h3 {
+  color: rgb(98, 0, 255);
+  margin-left: 200px;
+}
+
+.image {
+position: absolute;
+top: 0;
+left: 0;
+width:100%;
+height:100%;
+object-fit: cover;
+z-index: -1;
+}
+
+.progress{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-bar {
+  justify-content: center;
+  position: absolute;
+  height: 2px;
+  bottom: 25%;
+  width: 1200px;
+  border-radius: 50px;
+  background-color:rgba(133, 128, 128, 0.397);
+}
+
+.filler {
+  background: rgb(111, 0, 255);
+  height: 100%;
+  border-radius: inherit;
+}
+
+.cards {
+  bottom: 6%;
+  position: absolute;
+  justify-content: center;
+}
+
+.card__selector.active {
+  margin: 30px 20px 0px 0px;
+  height: 120px;
+  width: 250px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.card__selector {
+  opacity: 0.1;
+  margin: 30px 20px 0px 0px;
+  height: 120px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.crea {
+  background: #ffff;
+  color: black;
+  height: 300px;
 }
