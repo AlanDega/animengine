@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Fade } from "react-slideshow-image";
-import styled from "styled-components";
-import { getNodeText } from "@testing-library/react";
 import Slider from "./Slider";
 import slides from "../assets/slides";
+import logo from "../assets/a_logo.svg"
+import styled from 'styled-components';
+
+const AwesomeHeadline = styled.h1`
+  font-family: 'Jaapokkienchance' ;
+`
 
 const ProgressBar = (props) => {
   return (
@@ -38,9 +41,13 @@ export default function Landing(props) {
   // });
   return (
     <>
+     
+
       <Slider slides={slides} />
       <div className="crea">
-        <h1>Crea tú universo</h1>
+        <AwesomeHeadline>
+          Crea tú universo
+        </AwesomeHeadline>
       </div>
     </>
   );

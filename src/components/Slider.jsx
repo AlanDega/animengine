@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+import logo from '../assets/a_logo.svg';
+
+const user = "https://res.cloudinary.com/dalnnaod7/image/upload/v1588747118/user_jzbggc.png"
+
 const card_images = [
   {
     id: 1,
@@ -83,13 +87,40 @@ export default function Slider(props) {
       clearInterval(interval);
     };
   });
- 
+
   if (!Array.isArray(slides) || slides <= 0) {
     return null;
   }
 
   return (
     <section className="slider">
+      <header>
+        <img className="logo" src={logo} />
+        <nav>
+          <ul className="nav__links">
+            <li>
+              <p>Noticias</p>
+            </li>
+            <li>
+              <p>Academia</p>
+            </li>
+
+            <li>
+              <p>Funciones</p>
+            </li>
+            <li>
+              <p>
+                Comunidad
+              </p>
+            </li>
+            <li>
+              <p>Tienda</p>
+            </li>
+          </ul>
+          <img className="user" src={user} height="24"/>
+        </nav>
+      </header>
+
       {slides.map((s, i) => (
         <div
           className={i === curr ? "slide active" : "slide"}

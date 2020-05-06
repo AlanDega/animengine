@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   background: #100F20;
@@ -24,6 +26,57 @@ code {
 } */
 
 
+
+header {
+  position: relative;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 10%; 
+  width: 80%;
+  height: 80px;
+  z-index: 3;
+  background-color: transparent;
+  
+}
+
+.logo {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+
+}
+
+
+
+.nav__links {
+  display: inline-block;
+  list-style: none;
+  border-right: solid 1px rgb(98, 1, 255);
+}
+
+.nav__links li  {
+  list-style: none;
+}
+
+nav ul {
+  position: relative;
+  color: white;
+  
+}
+
+ li {
+  z-index: 2;
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.user {
+  position: absolute;
+  margin: 30px 50px 0px 30px;
+}
 
 
 .slider{

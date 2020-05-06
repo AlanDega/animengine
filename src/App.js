@@ -1,4 +1,5 @@
 import React from 'react';
+import GlobalFonts from './fonts/fonts';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ function App() {
    <>
     <BrowserRouter>
       <Route exact path="/" component={Landing} ></Route>
+      <GlobalFonts />
     </BrowserRouter>
    </>
   );
