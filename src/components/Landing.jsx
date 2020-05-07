@@ -2,11 +2,8 @@ import React, { useState, useEffect } from "react";
 import Slider from "./Slider";
 import slides from "../assets/slides";
 import logo from "../assets/a_logo.svg"
-import styled from 'styled-components';
+import Title from "../assets/crea.svg"
 
-const AwesomeHeadline = styled.h1`
-  font-family: 'Jaapokkienchance' ;
-`
 
 const ProgressBar = (props) => {
   return (
@@ -45,9 +42,7 @@ export default function Landing(props) {
 
       <Slider slides={slides} />
       <div className="crea">
-        <AwesomeHeadline>
-          Crea tú universo
-        </AwesomeHeadline>
+        <img height="200"  width="800"src={Title} />
       </div>
     </>
   );

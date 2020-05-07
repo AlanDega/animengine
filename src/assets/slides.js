@@ -1,26 +1,26 @@
 export default [
     {   
         id:1,
-        title: 'First slide',
-        subtitle: 'is it working?',
+        title: 'El mejor motor de videojuegos del mundo',
+        subtitle: "Animental",
         image: 'https://res.cloudinary.com/dalnnaod7/image/upload/v1588631142/animental1_xmnadn.jpg',
     },
     {   
         id:2,
-        title: "Second Slide",
-        subtitle: "ohhh yeah",
+        title: "Becas del 100% al mejor talento",
+        subtitle: "Academia",
         image: "https://res.cloudinary.com/dalnnaod7/image/upload/v1588631129/animental_2_jbqqzl.jpg"
     },
     {   
         id:3,
-        title: "Third Slide",
-        subtitle: "last one!",
+        title: "Presenta tú proyecto y recibe financiamiento",
+        subtitle: "Aceleredadora",
         image: "https://res.cloudinary.com/dalnnaod7/image/upload/v1588631130/animental_3_vqk9rd.jpg"
     },
     {   
         id:4,
-        title: "Fourth Slide",
-        subtitle: "last one!",
+        title: "Unete a la comunidad de videojuegos más grande del mundo",
+        subtitle: "Comunidad",
         image: "https://res.cloudinary.com/dalnnaod7/image/upload/v1588631129/animental4_smikj5.jpg"
     },
 ]

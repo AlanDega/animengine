@@ -102,11 +102,12 @@ nav ul {
 }
 
 .slide h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   margin-left: 200px;
 }
 .slide h3 {
+  font-size: 30px;
   color: rgb(98, 0, 255);
   margin-left: 200px;
 }
@@ -173,6 +174,8 @@ z-index: -1;
 }
 
 .crea {
+  display: flex;
+  justify-content: center;
   background: #ffff;
   color: black;
   height: 300px;
