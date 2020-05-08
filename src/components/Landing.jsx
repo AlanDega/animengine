@@ -3,7 +3,9 @@ import Slider from "./Slider";
 import slides from "../assets/slides";
 import logo from "../assets/a_logo.svg"
 import Title from "../assets/crea.svg"
+import Section from "./Section";
 
+const wave_image = "https://res.cloudinary.com/dalnnaod7/image/upload/v1588876149/image_jer1fu.jpg"
 
 const ProgressBar = (props) => {
   return (
@@ -38,11 +40,16 @@ export default function Landing(props) {
   // });
   return (
     <>
-     
-
       <Slider slides={slides} />
       <div className="crea">
-        <img height="200"  width="800"src={Title} />
+        <img height="200" width="800" src={Title} />
+      </div>
+      <div className="waves">
+        <Section
+          title="Empoderado por Rust"
+          
+          text="Animental fue escrito en Rust y gracias a su compatibilidad con Web-assembly podemos crear videojuegos con mayor eficiencia y de la mejor calidad en la web."
+          image={wave_image} />
       </div>
     </>
   );
