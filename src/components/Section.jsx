@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Wave from './Wave';
+import ResponsivePlayer from '../components/video/ResponsivePlayer';
+
 
 const SectionGroup = styled.div`
     display: grid;
@@ -77,7 +80,8 @@ const Section = props => (
                 </SectionTitle>  
                
             <SectionCard>
-                    <div className="card">
+                    <div className="player">
+                        <ResponsivePlayer />
                     </div>
                 </SectionCard>
         </SectionGroup>

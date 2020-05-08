@@ -28,22 +28,6 @@ export default function Slider(props) {
   const [highlight, setHighlight] = useState(0);
   const [cardImages, setCardImages] = useState([]);
 
-  const handleHover = (i) => {
-    console.log(i);
-    // // const img = cardImages[i]
-    // // setCardImages(img.hovered = true)
-    // // console.log(cardImages);
-    // if(i === 0)
-    // console.log(i);
-  };
-
-  const handleUnhover = (i) => {
-    // console.log(i);
-  };
-
-  // const goToNext = () => {
-  //   setCurr(curr === length - 1 ? 0 : curr + 1);
-  // };
 
   // on every change in the state this will rerun and rerender
   useEffect(() => {
@@ -93,7 +77,7 @@ export default function Slider(props) {
               <p>Tienda</p>
             </li>
           </ul>
-          <img className="user" src={user} height="24"/>
+          <img className="menu" src="https://res.cloudinary.com/dalnnaod7/image/upload/v1588947554/circulo_1_dahi5c.svg" />
         </nav>
       </header>
 
