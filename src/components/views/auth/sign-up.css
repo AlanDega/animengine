@@ -1,0 +1,166 @@
+
+
+.sign-form {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #06041a;
+  
+}
+
+.container {
+    /* display: flex;
+
+    margin:  0 auto; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: minmax(600px, 600px);
+  justify-items: center;
+  align-items: center;
+  height: 600px;
+  width: 800px;
+  border-radius: 6px;
+  background: white;
+  overflow: hidden;
+  border: solid 6px black;
+}
+
+.sign-btn {
+  color: white;
+  height: 50px;
+  outline: none;
+  background: linear-gradient(104deg, #050a27 0%, #4a548c 100%);
+}
+
+.left {
+  position: relative;  
+  display: grid;
+  justify-items: start;
+  align-items: flex-end;
+  background: black;
+  background-image: linear-gradient(
+      to right,
+      rgba(17, 13, 16, 0.1),
+      rgba(17, 13, 16, 0.8)
+    ),
+    url("https://res.cloudinary.com/dalnnaod7/image/upload/v1589156984/tumblr_nynjrh0SUR1qhttpto1_1280_ylpxn3.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.right {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    /* align-items: flex-start; */
+}
+
+.img-txt {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 30px 30px;
+    align-items: center;
+    
+}
+
+.img-txt img {
+    background-image: url("https://res.cloudinary.com/dalnnaod7/image/upload/v1589165308/valerie-elash-cKyEii97GFs-unsplash_zntg2h.jpg");
+ vertical-align: middle;
+ border: solid 2px #24D9E5;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  justify-self: right;
+  
+}
+
+.img-txt p {
+    color: rgba(245, 245, 245, 0.767);
+    width: 140;
+    justify-self: right;
+    margin: 10px 10px
+    
+}
+
+.logo {
+    position: absolute;
+  top: 30px;
+  left: 90px;
+  color: white;
+  z-index: 99;
+  
+}
+
+svg {
+    position: absolute;
+    width: 320px;
+    justify-self: center; 
+  }
+  path {
+    fill: none;
+    stroke: url(#linearGradient);;
+    stroke-width: 4;
+    stroke-dasharray: 240 1386;
+  }
+  .form {
+    margin: 40px;
+    position: absolute;
+  }
+
+  label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+  }
+  input::-moz-focus-inner { 
+    border: 0; 
+  }
+  #submit {
+    color: #707075;
+    margin-top: 40px;
+    transition: color 300ms;
+    margin-right: -30px;
+  }
+  #submit:focus {
+    color: #f2f2f2;
+  }
+  #submit:active {
+    color: #d0d0d2;
+  }
+  
+  #password {
+    border-bottom: solid 1px rgba(187, 183, 183, 0.637);
+  }
+  #password:focus {
+    border: none;
+  }
+
+  
+
+.daSvg {
+    left: 0px;
+    justify-self: start;
+}
+
+.content{
+  padding: 40px 40px;
+}

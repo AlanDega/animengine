@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
+import logo from '../../assets/a_logo.svg';
+import card_images from "../../assets/cardImages";
 
-import logo from '../assets/a_logo.svg';
-import card_images from "../assets/cardImages";
-
-const user = "https://res.cloudinary.com/dalnnaod7/image/upload/v1588747118/user_jzbggc.png"
 
 
 
@@ -22,12 +21,14 @@ const Filler = (props) => {
 export default function Slider(props) {
   const { slides } = props;
   const { length } = slides;
+ 
+
+  
 
   const [curr, setCurr] = useState(0);
   const [percentage, setPercentage] = useState(0);
   const [highlight, setHighlight] = useState(0);
   const [cardImages, setCardImages] = useState([]);
-
 
   // on every change in the state this will rerun and rerender
   useEffect(() => {
@@ -77,7 +78,10 @@ export default function Slider(props) {
               <p>Tienda</p>
             </li>
           </ul>
-          <img className="menu" src="https://res.cloudinary.com/dalnnaod7/image/upload/v1588947554/circulo_1_dahi5c.svg" />
+          <Link to="/registrate"> 
+                     <button >Ingresa</button>
+          </Link>
+            <button>Registrate</button>
         </nav>
       </header>
 

@@ -1,0 +1,86 @@
+.homes{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+
+.navBar {
+    height: 80px;
+    color: white;
+    background: black;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.nav-list {
+    justify-self: right;
+    align-self: center;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    width: 500px;
+}
+
+.search__bar__feed {
+    width: 160px;
+    height: 40px;
+    border: solid 2px rgba(85, 83, 83, 0.781);
+    border-radius: 10px;
+}
+
+.feed__logo {
+    height: 100%;
+}
+
+.feed__avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+}
+
+.feed__navbar__btn {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background: #6F03FF;
+    color: white;
+    padding: auto 20px;
+    width: 140px;
+}
+
+.filters {
+    display: grid;
+    justify-items: center;
+    align-items: flex-end;
+    height: 72px;
+}
+
+.filters__options__btn__active {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background: rgba(13, 12, 34, 0.05);
+    color: #0D0C22;
+    padding: 10 12px;
+    width: 100px;
+}
+.filters__options__btn {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background:transparent;
+    color: #6E6D7A;
+    padding: 10 12px;
+    width: 100px;
+}
+
+posts__container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 30px 40px;
+}

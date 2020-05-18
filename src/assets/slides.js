@@ -3,7 +3,7 @@ export default [
         id:1,
         title: 'El mejor motor de videojuegos del mundo',
         subtitle: "Animental",
-        image: 'https://res.cloudinary.com/dalnnaod7/image/upload/v1588631142/animental1_xmnadn.jpg',
+        image: '    ',
     },
     {   
         id:2,

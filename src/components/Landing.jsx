@@ -3,7 +3,7 @@ import { useIntersection } from "react-use";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
-import Slider from "./Slider";
+import Slider from "./hero/Slider";
 import slides from "../assets/slides";
 import logo from "../assets/a_logo.svg";
 import Title from "../assets/crea.svg";

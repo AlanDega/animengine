@@ -8,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #06041a;
+
 }
 
 code {
@@ -38,9 +40,7 @@ header {
 
 
 .nav__links {
-  display: inline-block;
-  list-style: none;
-  border-right: solid 1px rgb(98, 1, 255);
+ 
 }
 
 .menu {
@@ -71,14 +71,7 @@ nav ul {
   
 }
 
- li {
-  z-index: 2;
-  position: relative;
-  list-style-type: none;
-  display: inline-block;
-  padding: 0 20px;
-}
-
+ 
 .user {
   position: absolute;
   margin: 30px 50px 0px 30px;

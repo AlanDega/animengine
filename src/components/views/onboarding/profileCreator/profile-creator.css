@@ -1,0 +1,146 @@
+
+
+.daContainer {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background: #06041a;
+
+}
+
+.logoTypo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.avatar-creator {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 700px;
+  max-height: 500px;
+}
+
+.avatar-creator p {
+  font-size: 20px;
+  color: rgba(209, 212, 209, 0.849);
+}
+
+.avatar {
+  border-radius: 50%;
+  background-image: url();
+}
+
+.featured-work {
+  display: grid;
+  justify-items: flex-start;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(17, 13, 16, 0.1),
+      rgba(17, 13, 16, 0.8)
+    ),
+    url("https://res.cloudinary.com/dalnnaod7/image/upload/v1589238154/cyberpunk-girl_k0yb0v.jpg");
+}
+
+.img-txt img {
+  background-image: url("https://res.cloudinary.com/dalnnaod7/image/upload/v1589239206/jurica-koletic-efqnM0zWh54-unsplash_eyjtmi.jpg");
+  vertical-align: middle;
+  border: solid 2px #24d9e5;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  justify-self: right;
+  /* justify-self: left;
+     align-self: flex-end; */
+}
+
+.img-txt p {
+  color: rgba(255, 255, 255, 0.835);
+  width: 140;
+  justify-self: right;
+  margin: 10px 10px;
+}
+
+.button1 {
+  background: transparent;
+  outline: none;
+  border: none;
+  justify-self: start;
+}
+
+.uploader {
+    outline: none;
+    justify-self: start;
+    align-self: center;
+    font-size: 16px;
+    color: white;
+    border: none;
+  width: 160px;
+  height: 42px;
+  background: linear-gradient(90deg, #6f03ff 0%, #d531fe 100%);
+  box-shadow: 0px 5px 4px rgba(121, 7, 255, 0.5);
+  border-radius: 50px;
+}
+.uploader-inactive {
+    outline: none;
+    justify-self: start;
+    align-self: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.733);
+    border: #dddddda8;
+  width: 160px;
+  height: 42px;
+  background: none;
+  border-radius: 50px;
+}
+
+.avatar-buttons{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.next{
+    display: grid;
+    justify-items: center;
+    outline: none;
+}
+
+.inactive  {
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 50px;
+    height: 40px;
+    width: 215px;
+    background: none;
+    color: rgba(255, 255, 255, 0.575);
+    border-color: rgba(255, 255, 255, 0.575);
+    outline: none;
+}
+
+.active  {
+    outline: none;
+    background: linear-gradient(90deg, #6f03ff 0%, #d531fe 100%);
+    border-radius: 50px;
+    font-size: 16px;
+    border: none;
+    margin-top: 50px;
+    height: 40px;
+    width: 215px;
+    color: rgba(255, 255, 255, 0.993);
+    outline: none;
+}
+.pic {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+}
